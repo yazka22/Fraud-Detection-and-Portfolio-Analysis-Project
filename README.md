@@ -14,7 +14,7 @@
 
 Built an **end-to-end fraud detection pipeline** in Python on **163,710 transactions** to identify fraudulent activity in a heavily imbalanced dataset (~8% fraud). Compared four ML classifiers — **Random Forest** achieved the best accuracy of **93.7%**, outperforming Logistic Regression (91.5%), Decision Tree (91.9%), and Gradient Boosting (92.7%). Complemented with **R-based portfolio analysis** of transaction volumes, gross/net profit (MSC_LTM, NET_MSC_LTM), and refunds, plus **interactive Tableau dashboards** for stakeholder reporting.
 
-![ROC Curve](figures/roc_curve.png)
+![ROC Curve](figures/ROC_Curve.png)
 
 *ROC curves for all four models across three classes (Class 0: Accepted, Class 1: Blocked, Class 2: Fraud). Random Forest shows the highest AUC (0.92–0.93). Source: own processing.*
 
